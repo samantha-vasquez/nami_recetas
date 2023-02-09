@@ -1,0 +1,75 @@
+.titulo {
+    background-image: url(../imagenes/crema-brocoli.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: black;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.descripcion {
+    position: absolute;
+    width: 780px;
+    left: 35%;
+    top: 15%;
+}
+
+p {
+    text-align: justify;
+}
+
+.ingredientes {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.preparacion {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    position: absolute;
+    width: 780px;
+    left: 35%;
+    top: 60%;
+    text-align: justify;
+}
+
+.contenedor_youtube {
+    display: flex;
+    justify-content: right;
+    right: 10%;
+}
+
+.youtube {
+
+    display: flex;
+    justify-content: right;
+    margin-top: 45px;
+    margin-right: 90px;
+    width: 70%;
+}
+
+.icons {
+    margin-top: 10px;
+    margin-left: 90px;
+    color: orange;
+}
+
+ul.icons {
+    width: 300px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    column-gap: 30px;
+    margin-top: 20px;
+
+}
