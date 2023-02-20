@@ -78,7 +78,7 @@ input {
 }
 
 .inf_contacto {
-    width: 420px;
+    width: 100vw;
     text-align: center;
     position: absolute;
     bottom: 60%;
@@ -93,10 +93,201 @@ h2 {
 div.logo_nami {
 
     height: 147px;
-   width: 238px;
+    width: 238px;
     bottom: 28%;
     right: 17%;
     position: absolute;
     background-image: url(../imagenes/nombre\ png.png);
     background-size: cover;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1440px) {
+    .inf_contacto {
+
+        text-align: center;
+        position: absolute;
+        bottom: 45%;
+        left: 55%;
+        width: 400px;
+    }
+    div.logo_nami {
+        height: 98px;
+        width: 158px;
+        bottom: 10%;
+        right: 5%;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .inf_contacto {
+
+        text-align: center;
+        position: absolute;
+        bottom: 45%;
+        left: 55%;
+        width: 400px;
+    }
+
+    div.logo_nami {
+        height: 98px;
+        width: 158px;
+        bottom: 10%;
+        right: 5%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inf_contacto {
+
+        text-align: center;
+        position: absolute;
+        bottom: 50%;
+        left: 55%;
+        width: 300px;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    p {
+        font-size: small;
+        width: 310px;
+        height: 80px;
+        color: rgb(0, 0, 0);
+    }
+
+    div.logo_nami {
+        height: 98px;
+        width: 158px;
+        bottom: 10%;
+        right: 5%;
+
+    }
+
+    .main_formulario {
+        bottom: 18%;
+        right: 65%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .img_mandarina {
+        background-image: url(../imagenes/mandarina_mobile_Mesa\ de\ trabajo\ 1.jpg);
+    }
+
+    .inf_contacto {
+
+        text-align: center;
+        position: absolute;
+        bottom: 68%;
+        left: 25%;
+        width: 300px;
+    }
+
+    h2 {
+        font-size: small;
+    }
+
+    p {
+        font-size: x-small;
+        width: 300px;
+        color: rgb(0, 0, 0);
+    }
+
+    div.logo_nami {
+        height: 49px;
+        width: 79px;
+        bottom: 50%;
+        right: 5%;
+
+    }
+
+    .main_formulario {
+        bottom: 18%;
+        right: 40%;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .img_mandarina {
+        background-image: url(../imagenes/mandarina_mobile_Mesa\ de\ trabajo\ 1.jpg);
+    }
+
+    .inf_contacto {
+
+        text-align: center;
+        position: absolute;
+        bottom: 65%;
+        left: 9%;
+        width: 300px;
+    }
+
+    h2 {
+        font-size: small;
+    }
+
+    p {
+        font-size: x-small;
+        width: 300px;
+        color: rgb(0, 0, 0);
+    }
+
+    div.logo_nami {
+        height: 49px;
+        width: 79px;
+        bottom: 5%;
+        right: 05%;
+
+    }
+
+    .main_formulario {
+        bottom: 18%;
+        right: 20%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .img_mandarina {
+        background-image: url(../imagenes/mandarina_mobile_Mesa\ de\ trabajo\ 1.jpg);
+    }
+
+    .inf_contacto {
+
+        text-align: center;
+        position: absolute;
+        bottom: 68%;
+        left: 3%;
+        width: 300px;
+    }
+
+    h2 {
+        font-size: small;
+    }
+
+    p {
+        font-size: x-small;
+        width: 300px;
+        color: rgba(0, 0, 0, 0.801);
+    }
+
+    div.logo_nami {
+        height: 49px;
+        width: 79px;
+        bottom: 5%;
+        right: 05%;
+
+    }
+
+    .main_formulario {
+        bottom: 18%;
+        right: 13%;
+    }
 }
